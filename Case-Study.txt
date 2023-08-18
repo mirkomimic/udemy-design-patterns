@@ -1,0 +1,46 @@
+1. Support to multiple systems which can be easily extended for other systems -> abstract factory
+
+2. Building the System Manager in parts for different system -> builder
+
+3. Use of any framework to provide system management -> factory method
+
+4. Creating of Systems through cloning of prototype -> prototype
+
+5. Only one instance to manage the systems -> singleton
+
+6. Reuse of existing classes which are available to manage a system -> adapter
+
+7. Separating of abstraction and implementation for Configuration and Operation of System Management -> bridge
+
+8. Presenting the view of System Management where a Node can be view (Resource/Application/Monitor) or a system. -> composite
+
+9. Adding the responsibility for System Management -> decorator
+
+10. Providing a simple interface to user for Configuration/Operation/Getting Systems Information -> facade
+
+11. Sharing of large number of fine-grained objects for System Management -> flyweight
+
+12. Providing a placeholder for System Manager to control the access of Configuration Manager and Operation Manager -> proxy
+
+13. There may be chain of ways to do the operation on system or monitor the system in case of one way fails -> chain of responsibility
+
+14. System Management Operations has to be encapsulated -> command
+
+15. Providing the command line option for System Management operation which may be in simple sentences -> interpreter
+
+16. Traverse the Systems and provide the access to system elements -> iterator
+
+17. System Management Operation requires centralize communication way to do the operation on system -> mediator
+
+18. Save the state of system, so that it can be reverted back to previous state -> memento
+
+19. Monitoring of system, so that if anything changed then it should get refleced to view or required action to be taken -> observer
+
+20. Need to take action based on state of system. -> state
+
+21. Require different messages to be formed for different systems -> strategy
+
+22. There may be variant and invariant part of generic algorithm to do the operation on system -> template method
+
+23. Searching of Systems for specified configuration -> visitor
+
